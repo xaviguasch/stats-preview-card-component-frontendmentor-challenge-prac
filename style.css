@@ -1,0 +1,81 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap'); */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom properties */
+
+:root {
+  /* --ff-lexend: 'Lexend Deca', sans-serif;
+  --ff-shoulders: 'Big Shoulders Display', cursive;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --fs-10: 0.625rem;
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-15: 0.938rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-22: 1.375rem;
+  --fs-24: 1.5rem;
+  --fs-28: 1.75rem;
+  --fs-32: 2rem;
+  --fs-36: 2.25rem;
+  --fs-40: 2.5rem;
+  --fs-64: 4rem;
+
+  --clr-bright-orange: hsl(31, 77%, 52%);
+  --clr-dark-cyan: hsl(184, 100%, 22%);
+  --clr-very-dark-cyan: hsl(179, 100%, 13%);
+  --clr-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --clr-very-light-gray: hsl(0, 0%, 95%); */
+}
+
+body {
+  /* background-color: var(--clr-very-light-gray);
+  color: var(--clr-transparent-white);
+  font-family: var(--ff-lexend);
+  font-size: var(--fs-15);
+  font-weight: var(--fw-regular);
+  line-height: 1.6;
+  text-align: left; */
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Typography */
+
+/* Utility styles */
+
+.container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 5em 1.5em; */
+}
+
+/* SECTIONS */
+
+/* Footer */
+.footer {
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
