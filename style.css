@@ -47,9 +47,9 @@ body {
   background-color: var(--clr-very-dark-blue);
   color: var(--clr-slightly-transparent-white);
   font-family: var(--ff-main);
+  line-height: 1.6;
   font-size: var(--fs-15);
   font-weight: var(--fw-regular);
-  line-height: 1.6;
   text-align: center;
 }
 
@@ -61,15 +61,12 @@ img {
 .copy-title {
   color: var(--clr-white);
   font-size: var(--fs-26);
-  line-height: 1.2;
   font-weight: var(--fw-bold);
+  line-height: 1.2;
 }
 
 .accent-text {
   color: var(--clr-soft-violet);
-}
-
-.copy-text {
 }
 
 .stat-number {
@@ -79,10 +76,10 @@ img {
 }
 
 .stat-name {
-  font-weight: var(--fw-regular);
-  text-transform: uppercase;
-  letter-spacing: 1px;
   font-size: var(--fs-10);
+  font-weight: var(--fw-regular);
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .attribution {
@@ -90,11 +87,6 @@ img {
 }
 
 /* Utility styles */
-
-html,
-body {
-  /* height: 100%; */
-}
 
 .container {
   /* flex properties */
@@ -108,11 +100,11 @@ body {
 
 /* SECTIONS */
 .card {
+  background-color: var(--clr-dark-desaturated-blue);
+  border-radius: 0 0 0.5em 0.5em;
   margin: 3em 2em;
   min-width: 275px;
   max-width: 450px;
-  background-color: var(--clr-dark-desaturated-blue);
-  border-radius: 0 0 0.5em 0.5em;
 }
 
 .header-area {
@@ -120,9 +112,7 @@ body {
   background-size: cover;
   background-blend-mode: multiply;
   background-color: var(--clr-soft-violet);
-
   border-radius: 0.5em 0.5em 0 0;
-
   min-height: 230px;
   width: 100%;
 }
@@ -144,6 +134,7 @@ body {
 }
 
 .copy-stats > ul {
+  /* flex properties */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,9 +145,6 @@ body {
 
 .single-stat + .single-stat {
   margin-top: 1.75em;
-}
-
-.stat-name {
 }
 
 /* Footer */
@@ -186,13 +174,15 @@ body {
     padding: 0 3em;
   }
   .card {
+    /* flex properties */
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 
-    max-width: unset;
     margin: 0 auto;
+    max-width: unset;
   }
 
   .header-area,
@@ -201,21 +191,22 @@ body {
   }
 
   .header-area {
-    min-height: unset;
-
-    height: 100%;
-
+    /* flex properties */
     order: 1;
 
+    background: url('./images/image-header-desktop.jpg') 0 0 no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: var(--clr-soft-violet);
     border-radius: 0 0.5em 0.5em 0;
+    height: 100%;
+    min-height: unset;
   }
 
   .copy-area {
-    padding: 5em 4em;
-
-    text-align: left;
-
     border-radius: 0.5em 0 0 0.5em;
+    padding: 5em 4em;
+    text-align: left;
   }
 
   .copy-title {
@@ -224,8 +215,8 @@ body {
 
   .copy-text {
     font-size: var(--fs-14);
-    width: 90%;
     margin-top: 1.5em;
+    width: 90%;
   }
 
   .copy-stats {
@@ -233,8 +224,10 @@ body {
   }
 
   .copy-stats > ul {
+    /* flex properties */
     flex-direction: row;
     justify-content: space-between;
+
     width: 90%;
   }
 
