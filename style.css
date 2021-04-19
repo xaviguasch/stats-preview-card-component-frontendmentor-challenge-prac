@@ -182,7 +182,8 @@ img {
     align-items: center;
 
     margin: 0 auto;
-    max-width: unset;
+    width: 100%;
+    max-width: 1200px;
   }
 
   .header-area,
