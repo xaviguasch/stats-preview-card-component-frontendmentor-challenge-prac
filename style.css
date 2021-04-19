@@ -183,7 +183,7 @@ img {
 
     margin: 0 auto;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1050px;
   }
 
   .header-area,
@@ -210,8 +210,15 @@ img {
     text-align: left;
   }
 
+  .copy-title,
+  .copy-text,
+  .copy-stats {
+    max-width: 350px;
+  }
+
   .copy-title {
     font-size: var(--fs-32);
+    margin: 0;
   }
 
   .copy-text {
